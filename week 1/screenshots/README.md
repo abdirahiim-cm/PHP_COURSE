@@ -25,6 +25,21 @@ Main concepts covered:
   ## Screenshot
 ![PHP Introduction](echo_and_print.png)
 
+
+## Screenshot Name
+
+`variables.png`
+## Description
+
+This screenshot demonstrates how to declare and use variables and constants in PHP.
+
+Important points:
+- Variables start with the `$` sign and are case-sensitive.
+- Variables cannot start with a number or contain spaces.
+- Constants are defined using the `define()` function and cannot be changed once set.
+
+![PHP Introduction](variables.png)
+
 ## Screenshot Name
 `control_structure.png`
 
