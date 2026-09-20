@@ -40,6 +40,8 @@ Important points:
 
 ![PHP Introduction](variables.png)
 
+
+
 ## Screenshot Name
 `control_structure.png`
 
@@ -60,5 +62,23 @@ is used to replace long, chains of if-else statement
 
 
 
+## Screenshot Name
 
+`loops.png`
+
+
+## Description
+
+This screenshot demonstrates how to use loops  by executing a block of code repeatedly as long as a specified condition remains true.
+
+
+WHILE LOOP
+
+Used to repeat a block of code as long as a specific condition remains true
+
+
+DO-WHILE LOOP
+
+Used when you need a block of code to execute at least once before checking the loop's condition.
  
+![PHP Introduction](loops.png)
