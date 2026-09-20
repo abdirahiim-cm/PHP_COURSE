@@ -38,6 +38,7 @@ Important points:
 - Variables cannot start with a number or contain spaces.
 - Constants are defined using the `define()` function and cannot be changed once set.
 
+  ## Screenshot
 ![PHP Introduction](variables.png)
 
 
@@ -58,6 +59,7 @@ SWITCH Statement
 is used to replace long, chains of if-else statement
 
 
+  ## Screenshot
 ![PHP Introduction](control_structure.png)
 
 
@@ -80,5 +82,6 @@ Used to repeat a block of code as long as a specific condition remains true
 DO-WHILE LOOP
 
 Used when you need a block of code to execute at least once before checking the loop's condition.
- 
+
+   ## Screenshot
 ![PHP Introduction](loops.png)
