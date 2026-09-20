@@ -4,4 +4,4 @@ This folder contains my Week 1 practice files and screenshots demonstrating basi
 PHP Introduction Screenshots
 This folder contains screenshots explaining the basic concepts of PHP in the course:
 
-Web Application Development - PHP & MySQL
+Web Application Development - PHP & MySQL 
