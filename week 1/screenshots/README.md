@@ -9,7 +9,7 @@ Web Application Development - PHP & MySQL
 
 
 ## Screenshot Name
-`echo and print.png`
+`echo_and_print.png`
 
 ## Description
 
@@ -22,3 +22,4 @@ Main concepts covered:
 - Demonstrating that echo can accept multiple arguments without parentheses.
 
   ## Screenshot
+![PHP Introduction](echo_and_print.png)
