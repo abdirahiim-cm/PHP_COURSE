@@ -1,0 +1,24 @@
+// question 1
+
+$a = 10;
+$b = 25;
+$c = 15;
+
+if ($a >= $b && $a >= $c) {
+    $greatest = $a;
+} elseif ($b >= $a && $b >= $c) {
+    $greatest = $b;
+} else {
+    $greatest = $c;
+}
+
+if ($a <= $b && $a <= $c) {
+    $smallest = $a;
+} elseif ($b <= $a && $b <= $c) {
+    $smallest = $b;
+} else {
+    $smallest = $c;
+}
+
+echo "Greatest = " . $greatest . "<br>";
+echo "Smallest = " . $smallest;
