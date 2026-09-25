@@ -1,0 +1,12 @@
+// question 6
+
+$a = 8;
+$b = 12;
+
+$lcm = $a;
+
+while ($lcm % $a != 0 || $lcm % $b != 0) {
+    $lcm++;
+}
+
+echo "LCM = " . $lcm;
