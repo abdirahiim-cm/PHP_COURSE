@@ -1,0 +1,67 @@
+
+$numbers = array(5, -7, 12, 10, -7, 11, -6, 12, 1, -7, 2, 9);
+
+$total = 0;
+$evenTotal = 0;
+$oddTotal = 0;
+
+$min = $numbers[0];
+$max = $numbers[0];
+
+echo "All elements:<br>";
+
+for ($i = 0; $i < count($numbers); $i++) {
+
+    echo $numbers[$i] . " ";
+
+    // Total
+    $total = $total + $numbers[$i];
+
+    // Even numbers
+    if ($numbers[$i] % 2 == 0) {
+        $evenTotal = $evenTotal + $numbers[$i];
+    }
+
+    // Odd numbers
+    if ($numbers[$i] % 2 != 0) {
+        $oddTotal = $oddTotal + $numbers[$i];
+    }
+
+    // Minimum
+    if ($numbers[$i] < $min) {
+        $min = $numbers[$i];
+    }
+
+    // Maximum
+    if ($numbers[$i] > $max) {
+        $max = $numbers[$i];
+    }
+}
+
+echo "<br><br>";
+
+echo "Total = " . $total . "<br>";
+echo "Total of even numbers = " . $evenTotal . "<br>";
+echo "Total of odd numbers = " . $oddTotal . "<br>";
+
+echo "Minimum = " . $min . "<br>";
+
+echo "Minimum positions: ";
+for ($i = 0; $i < count($numbers); $i++) {
+    if ($numbers[$i] == $min) {
+        echo $i . " ";
+    }
+}
+
+echo "<br>";
+
+echo "Maximum = " . $max . "<br>";
+
+echo "Maximum positions: ";
+for ($i = 0; $i < count($numbers); $i++) {
+    if ($numbers[$i] == $max) {
+        echo $i . " ";
+    }
+}
+
+
